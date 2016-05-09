@@ -1,4 +1,4 @@
-FROM kibana:4.5.0
+FROM kibana:4
 MAINTAINER Sergey Novikov <snov@snov.me>
 
 RUN gosu kibana /opt/kibana/bin/kibana plugin --install elastic/sense
