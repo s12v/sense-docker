@@ -6,5 +6,5 @@ This image is based on the official Kibana image and contains the Sense plugin. 
 
 ## Usage
 
-1. `docker run -d s12v/sense`
-2. open http://localhost:5601/app/sense in browser
+1. `docker run -d -p 5601:5601 s12v/sense`
+2. open [http://localhost:5601/app/sense](http://localhost:5601/app/sense) in browser
